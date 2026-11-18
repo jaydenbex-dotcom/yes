@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Neon World</title> 
+  <styles>
+    body {
+    background: #080818;
+    color: cyan;
+    text-align: center;
+    font-family: Arial;
+    padding-top: 100px;
+    }
+    h1 { text-shadow: 0 0 20px cyan; }
+    button {
+    background: transparent;
+    color: cyan;
+    border: 2px solid cyan;
+    padding: 15px 30px;
+    cursor: pointer;
+    box-shadow: 0 0 15px cyan;
+    }
+  </styles>
+</head>
+<body>
+  <h1>WELCOME TO MY WORLD</h1>
+  <p id="msg">ready to explore?</p>
+  <button onclick="change()">ENTER</button>
+  <script>
+    function change() {
+      document .getElementById("msg").innerHTML=
+        "YOU JUST UNLOCKED THE FUTURE ";
+    }
+</script>
+</body>
+</html>
